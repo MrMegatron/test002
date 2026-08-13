@@ -1,0 +1,15 @@
+# created by virtualenv automatically
+
+# PyCharm缓存文件夹
+.idea/
+*.iml
+# Python缓存文件
+__pycache__/
+*.pyc
+# 虚拟环境文件夹
+venv/
+# 日志、临时文件
+*.log
+logs/
+# 系统隐藏文件
+.DS_Store

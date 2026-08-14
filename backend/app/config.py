@@ -4,6 +4,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 from sqlalchemy import URL
 
 
+
 class Settings(BaseSettings):
     """
     Data Agent 全局配置。

@@ -22,9 +22,9 @@ class Settings(BaseSettings):
     # MySQL 配置
     # =========================
 
-    mysql_host: str = "127.0.0.1"
+    mysql_host: str #= "127.0.0.1"
 
-    mysql_port: int = 3306
+    mysql_port: int #= 3306
 
     mysql_user: str
 
@@ -46,7 +46,7 @@ class Settings(BaseSettings):
     # Data Agent 安全配置
     # =========================
 
-    allowed_tables: str = "customers,orders"
+    allowed_tables: str #= "customers,orders"
 
     max_query_rows: int = 200
 
